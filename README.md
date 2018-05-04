@@ -3,7 +3,7 @@
 In this project PID controller has been implemented to manuever the vehicle around the lake race track in the simulator. The simulator provides cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle required to manuever safely. 
 
 [//]: # (Image References)
-[image1]: ./simulation.png
+[image1]: ./images/simulation.png
 
 ---
 
@@ -22,7 +22,7 @@ PID control involves chosing optimal gains K_p, K_i and K_d such that a system f
 
 ## Parameter tuning
 
-<img src="./simulation.png" width="450" height="350"> 
+<img src="./images/simulation.png" width="450" height="350"> 
 
 All parameters are tuned manually. Although there are alogirthms like twiddle and SGD that could tune the parameters automatically, manual tuning is chosen here to get a better understanding of the behavior of controller for different gain values. 
 
